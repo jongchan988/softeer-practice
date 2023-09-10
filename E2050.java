@@ -56,7 +56,7 @@ public class E2050 {
 
     public static void dfs(int index, int pointI, int pointJ){
         if (checkPoints(index, pointI, pointJ)){
-            if (index == n - 1){
+            if (index == m - 1){
                 count++;
                 return;
             }
